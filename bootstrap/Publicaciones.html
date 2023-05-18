@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Princiapl - Visual Software Chat</title>
+  <title>Publicaciones - Visual Software Chat</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/vsc.jpg" rel="icon">
+  <link href="assets/img/vsc.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -82,8 +82,9 @@
             <li>
               <hr class="dropdown-divider">
             </li>
+
             <li class="notification-item">
-              <i class="bi bi-check-circle text-success"></i>
+              <i class="bi bi-exclamation-circle text-warning"></i>
               <div>
                 <h4>Cuenta ya creada</h4>
                 <p>Gracias por registrarte!!!</p>
@@ -96,14 +97,13 @@
             </li>
 
             <li class="notification-item">
-              <i class="bi bi-info-circle text-primary"></i>
+              <i class="bi bi-x-circle text-danger"></i>
               <div>
                 <h4>Bienvenida</h4>
                 <p>Esperemos que la pases genial en nuestra pagina!!!</p>
                 <p>3 hrs. ago</p>
               </div>
             </li>
-
             <li>
               <hr class="dropdown-divider">
             </li>
@@ -184,13 +184,13 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="assets/img/freud.jpeg" alt="Profile" class="rounded-circle">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
             <span class="d-none d-md-block dropdown-toggle ps-2">Lautaro. M</span>
           </a><!-- End Profile Iamge Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6>Lautaro Maidana</h6>
+              <h6>Lautaro. M</h6>
               <span>Diseñador web</span>
             </li>
             <li>
@@ -208,7 +208,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+              <a class="dropdown-item d-flex align-items-center" href="Perfil.html">
                 <i class="bi bi-gear"></i>
                 <span>Configuracion de la cuenta</span>
               </a>
@@ -226,6 +226,7 @@
             <li>
               <hr class="dropdown-divider">
             </li>
+
             <li>
               <a class="dropdown-item d-flex align-items-center" href="#">
                 <i class="bi bi-box-arrow-right"></i>
@@ -259,7 +260,7 @@
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-              <a href="Publicaciones.html">
+              <a href="components-carousel.html">
                 <i class="bi bi-circle"></i><span>General</span>
               </a>
             </li>
@@ -318,90 +319,165 @@
         </ul>
       </li><!-- End Tables Nav -->
   </aside><!-- End Sidebar-->
-
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Principal</h1>
+      <h1>Carousel</h1>
       <nav>
-       <a href="index.html">Hogar</a></li>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Components</li>
+          <li class="breadcrumb-item active">Carousel</li>
+        </ol>
       </nav>
     </div><!-- End Page Title -->
-    <img src="assets/img/vsc.jpg">
-    <section class="section dashboard">
+
+    <section class="section">
       <div class="row">
+        <div class="col-lg-6">
 
-        <!-- Left side columns -->
-        <div class="col-lg-8">
-          <div class="row">
-            </div><!-- End Sales Card -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Primer MYSQL</h5>
 
-            <!-- Revenue Card -->
-            <div class="col-xxl-4 col-md-6">
-              <div class="card info-card revenue-card">
-
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
-
-                    <li><a class="dropdown-item" href="#">Today</a></li>
-                    <li><a class="dropdown-item" href="#">This Month</a></li>
-                    <li><a class="dropdown-item" href="#">This Year</a></li>
-                  </ul>
+              <!-- Slides only carousel -->
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/mysql4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/slides-2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/slides-3.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
+              </div><!-- End Slides only carousel-->
 
-                <div class="card-body">
-                  <h5 class="card-title">Donacion</h5>
+            </div>
+          </div>
 
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-currency-dollar"></i>
-                    </div>
-                    <div class="ps-3">
-                      <h6>$1</h6>
-                    </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Mi primer HTML</h5>
+
+              <!-- Slides with indicators -->
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/html1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/html2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/html3.png" class="d-block w-100" alt="...">
                   </div>
                 </div>
 
-              </div>
-            </div><!-- End Revenue Card -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
 
-            <!-- Customers Card -->
-            <div class="col-xxl-4 col-xl-12">
+              </div><!-- End Slides with indicators -->
 
-              <div class="card info-card customers-card">
+            </div>
+          </div>
 
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filtro</h6>
-                    </li>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Practicando style en HTML</h5>
+              <p>Buenas... Estoy practicando incorporar Style en mis codigos HTML, adjunto algunas fotos, agredeceria las ayudas.</p>
 
-                    <li><a class="dropdown-item" href="#">Today</a></li>
-                    <li><a class="dropdown-item" href="#">This Month</a></li>
-                    <li><a class="dropdown-item" href="#">This Year</a></li>
-                  </ul>
+              <!-- Slides with fade transition -->
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/ccs1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/ccs2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/ccs3.png" class="d-block w-100" alt="...">
+                  </div>
                 </div>
 
-                <div class="card-body">
-                  <h5 class="card-title">Usuarios nuevos <span>| This day</span></h5>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
 
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-people"></i>
-                    </div>
-                    </div>
+              </div><!-- End Slides with fade transition -->
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Usando phpmyadmin</h5>
+
+              <!-- Slides with controls -->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/php.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/php2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/php3.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+              </div><!-- End Slides with controls -->
+
+            </div>
+          </div>
+              </div><!-- End Slides with captions -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>Radio Paris</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
