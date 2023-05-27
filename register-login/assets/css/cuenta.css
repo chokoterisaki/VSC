@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background: rgb(35, 35, 37);
+    border-radius: 20px;
+}
+
+.contenedor_usuario{
+    background: rgb(35, 35, 37);
+    border-radius: 20px;
+}
+
+.user_img{
+    border-radius: 150px;
+}
+
+.contenedor_name{
+    margin-top: -250px;
+    margin-left: 300px;
+    background: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+    max-width: 250;
+    max-height: 50;
+}
+
+.user_name{
+    width: 490px;
+    color: white;
+    background: rgb(35, 35, 37);
+    text-align: center;
+    position: relative;
+    top: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.publicaciones{
+    color: white;
+    background:rgb(35, 35, 37);
+    position: relative;
+    top: 170px;
+    border-radius: 50px;
+}
+
+.gallery{
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+body{
+    background: rgb(35, 35, 37);
+    color: white;
+}
+
+form{
+    width: 550px;
+    height: 35px;
+    background: black;
+    border-radius: 50px;
+}
+.archivo{
+    margin-left: 80px;
+}
+
+.subir{
+    width: 100px;
+    height: 35px;
+    background: skyblue;
+    border-radius: 50px;
+}
