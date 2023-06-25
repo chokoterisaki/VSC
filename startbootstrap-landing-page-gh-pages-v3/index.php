@@ -28,7 +28,7 @@
                 <img src="assets/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
             </a>
             <a class="navbar-brand" href="index.html">Virtual Software Chat</a>
-            
+
             <ul class="nav nav-pills">
                 <li class="nav-item">
                   <a class="nav-link active" href="index.php">Inicio</a>
@@ -44,7 +44,7 @@
                 </li>
               </ul>
                 <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
-                <a class="btn btn-primary" href="register-login/rp.php">Abrir VSC</a>
+                <a class="btn btn-primary" href="#">Abrir VSC</a>
         </div>
     </nav>
 
@@ -105,32 +105,26 @@
         <div class="container-fluid p-0">
             <div class="row g-0">
                 <div class="col-lg-6 order-lg-2 text-white showcase-img"
-                    style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
+                    style="background-image: url('assets/img/chat-online-funil-de-vendas-1024x682.png')"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h2>Fully Responsive Design</h2>
-                    <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will
-                        look great on any device, whether it's a phone, tablet, or desktop the page will behave
-                        responsively!</p>
+                    <h2>Chats Publicos y Privados</h2> <!--topic 1-->
+                    <p class="lead mb-0">En VSC, tendras la opcion de hablar tanto por chats publicos como por chats privados. Los publicos tendran tematicas distintas y tu podras unirte al que mas te guste (Chats de PHP, chats de HTML, etc).  <br> Mientras que en los privados puedes hablar individualmente con algun amigo o crear un chat privado con ciertos usuarios para poder hacer proyectos juntos o simplemente hablar entre ustedes. <br>¡Todos podran crear los chats que quieran!</p>
                 </div>
             </div>
             <div class="row g-0">
                 <div class="col-lg-6 text-white showcase-img"
                     style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
                 <div class="col-lg-6 my-auto showcase-text">
-                    <h2>Updated For Bootstrap 5</h2>
-                    <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 5 is leading the
-                        way in mobile responsive web development! All of the themes on Start Bootstrap are now using
-                        Bootstrap 5!</p>
+                    <h2>¿Por que decimos que VSC es una red social de Programacion?</h2> <!--topic 2-->
+                    <p class="lead mb-0">Con VSC, aparte de poder encontrar gente con intereses y conocimientos sobre la programacion parecidos a los tuyos, te ayuda con la programacion en general. Por ejemplo, cuando quieras subir un codigo tuyo, ya sea porque quieres preguntar algo o subir un post, VSC adaptara tu codigo al instante con los colores y forma, ¡Solo es necesario poner que lenguaje estas usando y VSC hara todo por ti! Ademas, si quieres escribirlo tu mismo, solo es necesario elegir el lenguaje y ponerte a programar ¡Asi de facil!</p>
                 </div>
             </div>
             <div class="row g-0">
                 <div class="col-lg-6 order-lg-2 text-white showcase-img"
-                    style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
+                    style="background-image: url('assets/img/lenguajes-de-programacion-768x438.png')"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h2>Easy to Use & Customize</h2>
-                    <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand
-                        some deeper customization options. Out of the box, just add your content and images, and your
-                        new landing page will be ready to go!</p>
+                    <h2>¿Y que mas se puede hacer en VSC?</h2> <!--topic 3-->
+                    <p class="lead mb-0">¡En VSC puedes hacer muchas cosas! Puedes subir publicaciones con tus codigos favoritos para mostrarle al mundo, hacer preguntas de forma publica para recibir ayuda, ver tutoriales y videos de otrtos usuarios (o subir los tuyos propios) y crear grupos con los que puedes meter a tus amigos para desarrollar algun proyecto o actividad. <br> Y eso es solo la superficie de VSC ¡Hay muchas mas cosas esperandote! ¡Y todo eso completamente gratis! Unete hoy.</p>
                 </div>
             </div>
         </div>
@@ -138,29 +132,27 @@
     <!-- Testimonials-->
     <section class="testimonials text-center bg-light">
         <div class="container">
-            <h2 class="mb-5">What people are saying...</h2>
+            <h2 class="mb-5">¿Que opinan nuestros beta testers?</h2>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
-                        <h5>Margaret E.</h5>
-                        <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+                        <img class="img-fluid rounded-circle mb-3" src="assets/img/avatars-000329792062-ffya5t-t500x500.jpg" alt="..." />
+                        <h5>Walter White</h5>
+                        <p class="font-weight-light mb-0">"Esta red social es increible! hice muchos amigos"</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-2.jpg" alt="..." />
-                        <h5>Fred S.</h5>
-                        <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of
-                            super nice landing pages."</p>
+                        <img class="img-fluid rounded-circle mb-3" src="assets/img/500x500fedi.jpg" alt="..." />
+                        <h5>Fazbear, Freddy</h5>
+                        <p class="font-weight-light mb-0">"No solo puedo aprender programacion si no que tambien puedo subir videos enseñando programacion! wow!!"</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-3.jpg" alt="..." />
-                        <h5>Sarah W.</h5>
-                        <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to
-                            us!"</p>
+                        <img class="img-fluid rounded-circle mb-3" src="assets/img/Español.jpg" alt="..." />
+                        <h5>Gera y Edd (Españoles)</h5>
+                        <p class="font-weight-light mb-0">"Hay tantas funciones excelentes y la experiencia es fabulosa! Mejor que Amino"</p>
                     </div>
                 </div>
             </div>
@@ -171,7 +163,7 @@
         <div class="container position-relative">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
-                    <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+                    <h2 class="mb-4">¿Estas listo para hacer nuevos amigos? ¡Inicia sesion aqui! [PlaceHolder]</h2>
                     <!-- Signup form-->
                     <!-- * * * * * * * * * * * * * * *-->
                     <!-- * * SB Forms Contact Form * *-->
@@ -182,17 +174,7 @@
                     <!-- to get an API token!-->
                     <form class="form-subscribe" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
                         <!-- Email address input-->
-                        <div class="row">
-                            <div class="col">
-                                <input class="form-control form-control-lg" id="emailAddressBelow" type="email"
-                                    placeholder="Email Address" data-sb-validations="required,email" />
-                                <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">
-                                    Email Address is required.</div>
-                                <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">
-                                    Email Address Email is not valid.</div>
-                            </div>
-                            <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton"
-                                    type="submit">Submit</button></div>
+                        
                         </div>
                         <!-- Submit success message-->
                         <!---->
@@ -232,7 +214,7 @@
                         <li class="list-inline-item">⋅</li>
                         <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
                     </ul>
-                    <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2023. All Rights Reserved.</p>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy;2023 Radio Paris Inc. All Rights Reserved. Please report any glitch or abuse of rules that you may found.</p>
                 </div>
                 <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                     <ul class="list-inline mb-0">
