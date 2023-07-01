@@ -163,7 +163,7 @@
         <div class="container position-relative">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
-                    <h2 class="mb-4">¿Estas listo para hacer nuevos amigos? ¡Inicia sesion aqui! [PlaceHolder]</h2>
+                    <h2 class="mb-4">¡Únete a nuestra comunidad en constante crecimiento y empieza a programar con amigos ahora mismo!</h2>
                     <!-- Signup form-->
                     <!-- * * * * * * * * * * * * * * *-->
                     <!-- * * SB Forms Contact Form * *-->

@@ -58,24 +58,27 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="assets/fondo.png" class="d-block w-75 h-75" alt="página de bienvenida">
+                <img src="assets/img/bienvenida.png" class="d-block w-75 h-75" alt="página de bienvenida">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>Página de bienvendia</h5>
+                    <p>Aquí tendras un resumen sobre lo que ofrecemos con VSC.
+                        Nuestras páginas cuentan con un menú de navegación de fácil acceso.
+                        Los botones se colorean dependiendo en qué página estés.</p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/fondo.png" class="d-block w-75 h-75" alt="Inicio">
+                <img src="assets/img/inicio.png" class="d-block w-75 h-75" alt="Contacto">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>Página de inicio sesión</h5>
+                    <p>Aquí podras iniciar sesión con tu cuenta o crear una si no tienes.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/fondo.png" class="d-block w-75 h-75" alt="Chat">
+                <img src="assets/img/contacto.png" class="d-block w-75 h-75" alt="Chat">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5 id = "carrusel-contacto-title">Página de Contacto</h5>
+                    <p id = "carrusel-contacto">Si encuentras un bug o simplemente quieres hacer una recomendación,
+                        puedes contactarnos mediante la página de Contacto.</p>
                 </div>
             </div>
         </div>
