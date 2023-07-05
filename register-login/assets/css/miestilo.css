@@ -1,0 +1,44 @@
+.user_img{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+}
+
+.col-lg-6::before{
+    content: "";
+	position: absolute;
+	top: 1;
+	left: 1;
+	z-index: -1;
+	width: 350px;
+	height: 350px;
+	background: linear-gradient(45deg,
+			#061D89, #0C4774, #5FFBF1, #061D89, #5FFBF1, #0C4774, #061D89);
+	background-size: 800%;
+	border-radius: 150px;
+	filter: blur(8px);
+	animation: user-animation 15s linear infinite;
+}
+
+@keyframes user-animation {
+	0% {
+		background-position: 0 0;
+	}
+
+	50% {
+		background-position: 400% 0;
+	}
+
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+.atras{
+    margin-left: -210%;
+}
