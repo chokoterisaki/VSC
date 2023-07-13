@@ -1,1 +1,0 @@
-Extrae el rar de assets para que aparezca el css y etc.
