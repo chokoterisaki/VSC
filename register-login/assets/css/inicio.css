@@ -1,0 +1,25 @@
+.go{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    background: black;
+  }
+
+  .alb {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+  }
+
+  .alb img {
+    width: 500%;
+    height: 500%;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
