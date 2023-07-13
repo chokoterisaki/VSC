@@ -56,7 +56,7 @@
             <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/soporte.php">Soporte</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/producto.php">Producto</a>
+            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="../register-login/rp.php">Sobre Nosotros</a>

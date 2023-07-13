@@ -36,7 +36,7 @@
                     <a class="nav-link" href="soporte.php">Soporte</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="producto.php">Producto</a>
+                    <a class="nav-link" href="novedades.php">Novedades</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
