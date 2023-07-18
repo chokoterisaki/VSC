@@ -1,0 +1,33 @@
+.switch-label {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .switch-label::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    top: 2px;
+    left: 2px;
+    transition: 0.3s;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked + .switch-label {
+    background-color: #6f00ff;
+  }
+  
+  input[type="checkbox"]:checked + .switch-label::before {
+    transform: translateX(30px);
+  }
