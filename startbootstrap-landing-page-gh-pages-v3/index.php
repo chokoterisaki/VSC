@@ -243,6 +243,7 @@
     <script>
         var inicio = true;
         var soporte = false;
+        var novedades = false;
     </script>
     <script src="./js/switch.js"></script>
 

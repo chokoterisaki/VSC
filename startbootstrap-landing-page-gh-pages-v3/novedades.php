@@ -15,36 +15,39 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/styele2.css" rel="stylesheet" />
 </head>
 
-<body>
+<body style="background-color:#f0f0f0" class="fondox">
+    <!-- Navigation-->
 
-  <!-- Navigation-->
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="assets/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
-      </a>
-      <a class="navbar-brand" href="index.html">Virtual Software Chat</a>
+    <nav class="navbar navbar-light bg-light static-top fondox1">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+            </a>
+            <a class="navbar-brand" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Virtual Software Chat</a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link" href="index.php">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="soporte.php">Soporte</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="novedades.php">Novedades</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
-        </li>
-      </ul>
-      <input class="on-off" type="checkbox" id="switch">
-      <label for="switch" class="switch-label"></label>
-    </div>
-  </nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/soporte.php">Soporte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="../sobre_nosotros/index.php">Sobre Nosotros</a>
+                </li>
+            </ul>
+            <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
+            <a class="btn btn-primary" href="#">Abrir VSC</a>
+            <input class="on-off" type="checkbox" id="switch">
+            <label for="switch" class="switch-label"></label>
+        </div>
+    </nav>
   <h1 class="mb-5"> <b>Novedades</h1>
   <p>En Novedades puedes ver todo lo nuevo que tiene VSC para ofrecer en sus actualizaciones.</p>
   <hr class="featurette-divider">
@@ -364,6 +367,12 @@
   <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
   <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <script>
+    var inicio = false;
+    var soporte = false;
+    var novedades = true;
+  </script>
+  <script src="./js/switch.js"></script>
 </body>
 
 </html>
