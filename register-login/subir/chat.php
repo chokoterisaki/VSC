@@ -18,17 +18,17 @@ if (isset($_SESSION['usuario'])) {
 		}
 
 		span {
-			color: #673ab7;
+			color: #8B00FF;
 			font-weight: bold;
 		}
 
 		.container {
-			margin-top: 3%;
-			width: 60%;
-			background-color: #26262b9e;
+			margin-top: 9%;
+			width: 80%;
+			background-color: #000000;
 			padding-right: 10%;
 			padding-left: 10%;
-			border: #120633 5px solid;
+			border: #0600FF 5px solid;
 			border-radius: 5%;
 		}
 
@@ -38,19 +38,21 @@ if (isset($_SESSION['usuario'])) {
 
 		.display-chat {
 			height: 300px;
-			background-color: #a5d1f5;
+			background-color: #242424;
 			margin-bottom: 4%;
 			overflow: auto;
 			padding: 15px;
+			border-radius: 25px;
 		}
 
 		.message {
-			background-color: #56abf1;
+			background-color: #000000;
 			color: white;
 			border-radius: 5px;
 			padding: 5px;
 			margin-bottom: 3%;
 			border: 2px ridge #000;
+			border-color: #0600FF;
 		}
 	</style>
 
@@ -78,7 +80,7 @@ if (isset($_SESSION['usuario'])) {
 
 	<div class="container">
 		<center>
-			<h2>Bienvenid@ <span style="color:#120633; font-weight: 600;"><?php echo $_SESSION['usuario']; ?> </span> a Nuestro Chat</h2>
+			<h2>Bienvenid@ <span style="color:#8B00FF; font-weight: 600;"><?php echo $_SESSION['usuario']; ?> </span> a Nuestro Chat</h2>
 			<label>&copy;Radio Paris Inc</label>
 		</center></br>
 		<div class="display-chat" id="display-chat">
