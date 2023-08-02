@@ -97,7 +97,8 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <small>Se especializa</small>
                   <div class="especialidad">
-                    <img class="ajuste" src="./assets/img/js.png" alt="">
+                    <img class="ajuste" src="./assets/img/html.png" alt="">
+                    <img class="ajuste" src="./assets/img/js.png" alt="" srcset="">
                   </div>
                 </div>
               </div>
@@ -117,8 +118,8 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <small>Se especializa</small>
                   <div class="especialidad">
-                    <img class="ajuste" src="./assets/img/html.png" alt="">
                     <img class="ajuste" src="./assets/img/css.png" alt="">
+                    <img class="ajuste" src="./assets/img/html.png" alt="">
                   </div>
                 </div>
               </div>
@@ -157,8 +158,8 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <small>Se especializa</small>
                   <div class="especialidad">
-                    <img class="ajuste" src="./assets/img/html.png" alt="">
                     <img class="ajuste" src="./assets/img/js.png" alt="">
+                    <img class="ajuste" src="./assets/img/html.png" alt="">
                   </div>
                 </div>
               </div>
@@ -178,8 +179,9 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <small>Se especializa</small>
                   <div class="especialidad">
-                    <img class="ajuste" src="./assets/img/html.png" alt="">
                     <img class="ajuste" src="./assets/img/js.png" alt="">
+                    <img class="ajuste" src="./assets/img/html.png" alt="">
+                    <img class="ajuste" src="./assets/img/css.png" alt="">
                   </div>
                 </div>
               </div>
@@ -199,8 +201,8 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <small>Se especializa</small>
                   <div class="especialidad">
-                    <img class="ajuste" src="./assets/img/html.png" alt="">
                     <img class="ajuste" src="./assets/img/c.png" alt="">
+                    <img class="ajuste" src="./assets/img/html.png" alt="">
                   </div>
                 </div>
               </div>
