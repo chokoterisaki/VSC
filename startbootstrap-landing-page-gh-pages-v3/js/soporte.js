@@ -9,30 +9,33 @@ switchButton.addEventListener("change", function () {
   if (this.checked) {
     div.style.backgroundColor = "#363439";
     div1.style.backgroundColor = "#363439";
+    div2.style.backgroundColor = "#363439";
     div3.style.backgroundColor = "#363439";
     div4.style.backgroundColor = "#363439";
   } else {
-    div.style.backgroundColor = "white";
-    div1.style.backgroundColor = "white";
-    div2.style.backgroundColor = "white";
-    div3.style.backgroundColor = "white";
-    div4.style.backgroundColor = "white";
+    div.style.backgroundColor = "#f0f0f0";
+    div1.style.backgroundColor = "#f0f0f0";
+    div2.style.backgroundColor = "#f0f0f0";
+    div3.style.backgroundColor = "#f0f0f0";
+    div4.style.backgroundColor = "#f0f0f0";
   }
+
 });
 
 switchButton.addEventListener("change", function () {
     if (this.checked) {
       div.style.color = "#f0f0f0";
       div1.style.color = "#f0f0f0";
+      div2.style.color = "#f0f0f0";
       div3.style.color = "#f0f0f0";
       div4.style.color = "#f0f0f0";
   
     } else {
-      div.style.color = "black";
-      div1.style.color = "black";
-      div2.style.color = "black";
-      div3.style.color = "black";
-      div4.style.color = "black";
+      div.style.color = "#363439";
+      div1.style.color = "#363439";
+      div2.style.color = "#363439";
+      div3.style.color = "#363439";
+      div4.style.color = "#363439";
   
     }
   });

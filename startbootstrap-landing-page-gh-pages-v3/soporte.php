@@ -2,9 +2,13 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soporte</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Virtual Software Chat | Soporte</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> <!--acá iria el favicon de fabri-->
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
@@ -14,10 +18,10 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styele2.css">
 </head>
-
-<body class="fondos">
+<body>
+<body style="background-color:white"class="fondos">
     <div class="rgb">
-        <div class="menu">
+        <div style= "background-color:white;">
             <nav class="navbar navbar-light bg-light static-top fondos1">
                 <div class="container">
                     <a class="navbar-brand" href="#">
@@ -48,15 +52,15 @@
         </div>
     </div>
     <section class="contenedor_tarjetas">
-        <a href="#">
-            <div class="forma fondos3">
+        <a href="">
+            <div class="forma fondos2">
                 <h2 class="texto">Contacto</h2>
                 <h4 class="texto">Reporta, sugiere los que descubras</h4>
             </div>
         </a>
 
         <a href="">
-            <div class="forma fondos4">
+            <div class="forma fondos3">
                 <h2 class="texto">Cambiar contraseña</h2>
                 <h4 class="texto">¿Olvidaste tu contraseña?</h4>
                 <h4 class="texto">Contactanos para cambiarla</h4>
@@ -64,7 +68,7 @@
         </a>
 
         <a href="">
-            <div class="forma fondos5">
+            <div class="forma fondos4">
                 <h2 class="texto">Solicitud de Administrador</h2>
                 <h4 class="texto">Solicita moderar el chat</h4>
             </div>

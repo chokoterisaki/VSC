@@ -22,7 +22,7 @@
 <body>
     <!-- Navigation-->
 
-    <div class="menu">
+    
         <nav class="navbar navbar-light bg-light static-top fondo">
             <div class="container">
                 <a class="navbar-brand" href="#">
@@ -50,7 +50,7 @@
                 <label for="switch" class="switch-label"></label>
             </div>
         </nav>
-    </div>
+
 
 
 

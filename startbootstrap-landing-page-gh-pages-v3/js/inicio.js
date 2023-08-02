@@ -38,4 +38,3 @@ switchButton.addEventListener("change", function () {
   
     }
   });
-  
