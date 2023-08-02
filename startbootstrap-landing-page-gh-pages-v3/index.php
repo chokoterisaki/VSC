@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/styele2.css">
 </head>
 
-<body>
+<body style="background-color:#f0f0f0">
     <!-- Navigation-->
 
     <nav class="navbar navbar-light bg-light static-top fondo">
@@ -240,7 +240,11 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <script src="./js/inicio.js"></script>
+    <script>
+        var inicio = true;
+        var soporte = false;
+    </script>
+    <script src="./js/switch.js"></script>
 
 
 </body>
