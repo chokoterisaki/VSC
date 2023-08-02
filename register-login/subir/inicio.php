@@ -14,7 +14,6 @@ if (!isset($_SESSION['usuario'])) {
 }
 
 ?>
-
 <?php include "../subir/db_conn.php"; ?>
 
 <!doctype html>
@@ -29,6 +28,7 @@ if (!isset($_SESSION['usuario'])) {
   <title>Inicio</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+  <link rel="stylesheet" href="../assets/dist/css/style.css">
 
 
 
@@ -69,7 +69,7 @@ if (!isset($_SESSION['usuario'])) {
             <ul class="list-unstyled">
               <li><a href="../cuenta.php" class="text-white">Cuenta</a></li>
               <li><a href="index.php" class="text-white">Publicar</a></li>
-              <li><a href="../chat.php" class="text-white">Chat</a></li>
+              <li><a href="./chat.php" class="text-white">Chat</a></li>
               <li><a href="../php/cerrar_sesion.php" class="text-white">Cerrar Sesión</a></li>
             </ul>
           </div>
@@ -83,7 +83,7 @@ if (!isset($_SESSION['usuario'])) {
             <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
             <circle cx="12" cy="13" r="4" />
           </svg>
-          <strong>Album</strong>
+          <strong>Home</strong>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -91,22 +91,6 @@ if (!isset($_SESSION['usuario'])) {
       </div>
     </div>
   </header>
-
-  <main>
-
-    <section class="py-5 text-center container">
-      <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">Album example</h1>
-          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-          <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-          </p>
-        </div>
-      </div>
-    </section>
-  </main>
   <main class="go">
     <?php
     $sql = "SELECT * FROM images ORDER BY id DESC";
@@ -114,7 +98,8 @@ if (!isset($_SESSION['usuario'])) {
 
     if (mysqli_num_rows($res) > 0) {
       while ($images = mysqli_fetch_assoc($res)) {  ?>
-
+        <br>
+        <br>
         <div class="alb">
           <img src="uploads/<?= $images['image_url'] ?>">
         </div>
@@ -122,18 +107,6 @@ if (!isset($_SESSION['usuario'])) {
     <?php }
     } ?>
   </main>
-
-  <footer class="text-muted py-5">
-    <div class="container">
-      <p class="float-end mb-1">
-        <a href="#">Back to top</a>
-      </p>
-      <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-      <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
-    </div>
-  </footer>
-
-
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 

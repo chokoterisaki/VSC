@@ -13,14 +13,14 @@ if (isset($_POST['submit']) && isset($_FILES['my_image'])) {
 	$error = $_FILES['my_image']['error'];
 
 	if ($error === 0) {
-		if ($img_size > 125000) {
+		if ($img_size > 100000000) {
 			$em = "Lo sentimos, su archivo es demasiado grande";
 		    header("Location: index.php?error=$em");
 		}else {
 			$img_ex = pathinfo($img_name, PATHINFO_EXTENSION);
 			$img_ex_lc = strtolower($img_ex);
 
-			$allowed_exs = array("jpg", "jpeg", "png"); 
+			$allowed_exs = array("jpg", "jpeg", "png", "zip", "gif"); 
 
 			if (in_array($img_ex_lc, $allowed_exs)) {
 				$new_img_name = uniqid("IMG-", true).'.'.$img_ex_lc;

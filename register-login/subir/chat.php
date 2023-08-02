@@ -1,8 +1,8 @@
 <?php
 session_start();
 if (isset($_SESSION['usuario'])) {
-	include "layouts/header2.php";
-	include "php/conexion_rp.php";
+	include "../layouts/header2.php";
+	include "../php/conexion_rp.php";
 
 	$sql = "SELECT * FROM `chat`";
 

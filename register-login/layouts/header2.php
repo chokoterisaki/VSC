@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     
-    <title>Chat SistemTaipe</title>
+    <title>Chat</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <script src="bootstrap/js/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
     <style>
     body{
         background-image:url('images/home.jpg');

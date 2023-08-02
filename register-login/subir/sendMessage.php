@@ -1,6 +1,6 @@
 <?php
 
-include "php/conexion_rp.php";
+include "../php/conexion_rp.php";
 session_start();
 if($_POST)
 {
