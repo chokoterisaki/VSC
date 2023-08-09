@@ -21,37 +21,37 @@
 
 <body style="background-color:#f0f0f0">
     <!-- Navigation-->
+    <div class="">
+        <div class="menu">
+            <nav class="navbar navbar-light bg-light static-top fondo">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                    </a>
+                    <a class="navbar-brand" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Virtual Software Chat</a>
 
-    <nav class="navbar navbar-light bg-light static-top fondo">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
-            </a>
-            <a class="navbar-brand" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Virtual Software Chat</a>
-
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link active" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/soporte.php">Soporte</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="../sobre_nosotros/index.php">Sobre Nosotros</a>
-                </li>
-            </ul>
-            <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
-            <a class="btn btn-primary" href="#">Abrir VSC</a>
-            <input class="on-off" type="checkbox" id="switch">
-            <label for="switch" class="switch-label"></label>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/soporte.php">Soporte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="../sobre_nosotros/index.php">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                    <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
+                    <a class="btn btn-primary" href="#">Abrir VSC</a>
+                    <input class="on-off" type="checkbox" id="switch">
+                    <label for="switch" class="switch-label"></label>
+                </div>
+            </nav>
         </div>
-    </nav>
-
-
-
+    </div>
     <!-- Masthead-->
     <header class="masthead">
         <div class="container position-relative">

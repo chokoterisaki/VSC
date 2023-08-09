@@ -102,6 +102,8 @@
 }
 
 body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -12942,7 +12944,7 @@ footer.footer {
   left: 1;
   z-index: -1;
   width: 1902px;
-  height: 80px;
+  height: 110px;
   background: linear-gradient(
     45deg,
     #0d00ff,

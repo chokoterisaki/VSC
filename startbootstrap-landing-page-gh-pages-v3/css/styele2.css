@@ -35,3 +35,8 @@ input[type="checkbox"]:checked + .switch-label::before {
   margin-top: -50px;
   width: 1902px;
 }
+
+.container{
+  padding: 10px;
+  margin-top: 5px;
+}
