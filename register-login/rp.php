@@ -16,36 +16,40 @@ if (isset($_SESSION['usuario'])) {
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../startbootstrap-landing-page-gh-pages-v3/css/styles.css">
+    <link rel="stylesheet" href="../startbootstrap-landing-page-gh-pages-v3/css/styele2.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 
 <body>
-<nav class="navbar navbar-light bg-light static-top fondo">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
-            </a>
-            <a class="navbar-brand" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Virtual Software Chat</a>
+    <div class="">
+        <div class="menu">
+            <nav class="navbar navbar-light bg-light static-top fondo">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                    </a>
+                    <a class="navbar-brand" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Virtual Software Chat</a>
 
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                  <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/soporte.php">Soporte</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
-                </li>
-              </ul>
-                <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
-                <a class="btn btn-primary" href="#">Abrir VSC</a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/soporte.php">Soporte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                    <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
+                    <a class="btn btn-primary" href="#">Abrir VSC</a>
+                </div>
+            </nav>
         </div>
-    </nav>
-    </nav>
+    </div>
     <main>
 
         <div class="contenedor__todo">
