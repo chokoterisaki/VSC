@@ -18,36 +18,139 @@
   <link href="css/styele2.css" rel="stylesheet" />
 </head>
 
-<body style="background-color:#f0f0f0" class="fondox">
-    <!-- Navigation-->
+<body style="background-color:#f0f0f0; padding:0%;" class="fondox">
+<style>
+  .image {
+  width: 419px;
+  height: 150px;
+  }
 
+  .card::before {
+  content: "";
+  position: absolute;
+  top: 1;
+  left: 1;
+  z-index: -1;
+  width: 420px;
+  height: 360px;
+  background: linear-gradient(
+  45deg,
+  #0d00ff,
+  #6200ff,
+  #000000,
+  #0d00ff,
+  #000000,
+  #6200ff,
+  #0d00ff
+  );
+  background-size: 800%;
+  border-radius: 0px;
+  filter: blur(8px);
+  animation: animation 10s linear infinite;
+  }
+
+  @keyframes animation {
+  0% {
+  background-position: 0 0;
+  }
+
+  50% {
+  background-position: 400% 0;
+  }
+
+  100% {
+  background-position: 0 0;
+  }
+  }
+
+  .rgb::before {
+  content: "";
+  position: absolute;
+  top: 1;
+  left: 1;
+  z-index: -1;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(
+  45deg,
+  #0d00ff,
+  #6200ff,
+  #000000,
+  #0d00ff,
+  #000000,
+  #6200ff,
+  #0d00ff
+  );
+  background-size: 800%;
+  filter: blur(8px);
+  animation: animation2 10s linear infinite;
+  }
+
+  @keyframes animation2 {
+  0% {
+  background-position: 0 0;
+  }
+
+  50% {
+  background-position: 400% 0;
+  }
+
+  100% {
+  background-position: 0 0;
+  }
+  }
+
+  .menu {
+  margin-top: -50px;
+  width: 100%;
+  }
+
+  .fondo2 {
+  background-color: #f0f0f0;
+
+  }
+
+  .container {
+  padding: 10px;
+  margin-top: 5px;
+  }
+
+  .ajuste{
+  width: 44px;
+  height: 44px;
+  }
+</style>
+  <!-- Navigation-->
+  <div class=rgb>
     <nav class="navbar navbar-light bg-light static-top fondox1">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
-            </a>
-            <a class="navbar-brand" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Virtual Software Chat</a>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+        </a>
+        <a class="navbar-brand" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Virtual Software Chat</a>
 
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/soporte.php">Soporte</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="../sobre_nosotros/index.php">Sobre Nosotros</a>
-                </li>
-            </ul>
-            <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
-            <a class="btn btn-primary" href="#">Abrir VSC</a>
-            <input class="on-off" type="checkbox" id="switch">
-            <label for="switch" class="switch-label"></label>
-        </div>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/soporte.php">Soporte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../sobre_nosotros/index.php">Sobre Nosotros</a>
+          </li>
+        </ul>
+        <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
+        <a class="btn btn-primary" href="#">Abrir VSC</a>
+        <input class="on-off" type="checkbox" id="switch">
+        <label for="switch" class="switch-label"></label>
+      </div>
     </nav>
+  </div>
+  <br>
   <h1 class="mb-5"> <b>Novedades</h1>
   <p>En Novedades puedes ver todo lo nuevo que tiene VSC para ofrecer en sus actualizaciones.</p>
   <hr class="featurette-divider">

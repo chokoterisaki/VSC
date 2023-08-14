@@ -40,7 +40,8 @@
   <link href="carousel.css" rel="stylesheet">
 </head>
 
-<body class="fondo2">
+<body class="fondo2" >
+
   <div class="rgb">
     <div class="menu">
       <nav class="navbar navbar-light bg-light static-top fondo">
@@ -66,13 +67,17 @@
           </ul>
           <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
           <a class="btn btn-primary" href="#">Abrir VSC</a>
-            <input type="checkbox" id="switch">
-            <label for="switch" class="switch-label"></label>
+          <input type="checkbox" id="switch">
+          <label for="switch" class="switch-label"></label>
         </div>
       </nav>
     </div>
   </div>
   <br>
+  <div class="text-center fondo10">
+    <br>
+    <h1 class="mt-3 mb-3">Sobre Nosotros</h1>
+  </div>
   <main>
     <!-- Marketing messaging and featurettes
   ================================================== -->

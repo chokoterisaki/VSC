@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/styele2.css">
 </head>
 
-<body style="background-color:white" class="fondos">
+<body style="background-color:white; padding:0;" class="fondos">
     <div class="rgb">
         <div style="background-color:white;">
             <nav class="navbar navbar-light bg-light static-top fondos1">
@@ -50,6 +50,9 @@
                 </div>
             </nav>
         </div>
+    </div>
+    <div class="text-center fondos5">
+        <h1 class="mt-5 mb-1">Soporte</h1>
     </div>
     <section class="contenedor_tarjetas">
         <a href="">

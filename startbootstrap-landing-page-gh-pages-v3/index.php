@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Virtual Software Chat | Inicio</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> <!--acá iria el favicon de fabri-->
@@ -17,11 +18,12 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styele2.css">
+    <link rel="stylesheet" href="../sobre_nosotros/carousel/carousel.css">
 </head>
 
 <body style="background-color:#f0f0f0">
     <!-- Navigation-->
-    <div class="">
+    <div class="rgb">
         <div class="menu">
             <nav class="navbar navbar-light bg-light static-top fondo">
                 <div class="container">
@@ -41,7 +43,7 @@
                             <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="../sobre_nosotros/index.php">Sobre Nosotros</a>
+                            <a class="nav-link" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
                         </li>
                     </ul>
                     <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
@@ -53,10 +55,15 @@
         </div>
     </div>
     <!-- Masthead-->
+    <div class="text-center fondo5">
+        <br>
+        <h1 class="mt-3 mb-3">Inicio</h1>
+    </div>
     <header class="masthead">
         <div class="container position-relative">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
+
                     <div class="text-center text-white">
                         <!-- Page heading-->
                         <h1 class="mb-5">Bienvenidos a Virtual Software Chat</h1>

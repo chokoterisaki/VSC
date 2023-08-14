@@ -9,7 +9,7 @@ var div6 = document.getElementsByClassName("fondo6")[0];
 var div7 = document.getElementsByClassName("fondo7")[0];
 var div8 = document.getElementsByClassName("fondo8")[0];
 var div9 = document.getElementsByClassName("fondo9")[0];
-
+var div10 = document.getElementsByClassName("fondo10")[0];
 switchButton.addEventListener("change", function () {
   if (this.checked) {
     div.style.backgroundColor = "#363439";
@@ -20,7 +20,7 @@ switchButton.addEventListener("change", function () {
     div7.style.backgroundColor = "#363439";
     div8.style.backgroundColor = "#363439";
     div9.style.backgroundColor = "#363439";
-
+    div10.style.backgroundColor = "#363439"
 
   } else {
     div.style.backgroundColor = "white";
@@ -31,7 +31,7 @@ switchButton.addEventListener("change", function () {
     div7.style.backgroundColor = "white";
     div8.style.backgroundColor = "white";
     div9.style.backgroundColor = "white";
-
+    div10.style.backgroundColor = "white";
   }
 });
 
@@ -48,7 +48,7 @@ switchButton.addEventListener("change", function () {
     div7.style.color = "#f0f0f0"; 
     div8.style.color = "#f0f0f0"; 
     div9.style.color = "#f0f0f0"; 
-
+    div10.style.color = "#f0f0f0"; 
   } else {
     div.style.color = "black";
     div2.style.color = "black";
@@ -59,5 +59,6 @@ switchButton.addEventListener("change", function () {
     div7.style.color = "black";
     div8.style.color = "black";
     div9.style.color = "black";
+    div10.style.color = "black";
   }
 });
