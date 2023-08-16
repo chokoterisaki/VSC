@@ -22,7 +22,7 @@ if (isset($_SESSION['usuario'])) {
 
 <body>
     <div class="">
-        <div class="menu">
+        <div class="">
             <nav class="navbar navbar-light bg-light static-top fondo">
                 <div class="container">
                     <a class="navbar-brand" href="#">

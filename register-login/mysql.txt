@@ -1,5 +1,4 @@
-Pasos para el mysql
-
+login-register-sql
 Paso 1:
 Ingresar a localhost/phpmyadmin/
 
@@ -41,3 +40,17 @@ en la columna Longitud/Valore pon lo siguiente
 
 Paso 8:
 en la columna A_I solo dale al primer check box y el indice debe decir PRIMARY
+
+images-sql
+
+tabla llamada "images"
+con los siguentes campos:
+-id (debe ser auto incremental)
+-image_url (deber ser text con una Longitud de 255)
+
+chat-sql
+tabla llamada "chat"
+con los siguentes campos
+-id (auto incremental)
+-name (VARCHAR y 255)
+-messages (text y  255)
