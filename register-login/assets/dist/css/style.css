@@ -1,11 +1,12 @@
-.go{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.go {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.alb img{
-    width: 500px;
-    height: 250px;
+.alb img {
+  width: 500px;
+  height: 250px;
+  background-color: #4c00ff;
 }
