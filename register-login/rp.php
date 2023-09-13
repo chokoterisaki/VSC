@@ -21,10 +21,10 @@ if (isset($_SESSION['usuario'])) {
 </head>
 
 <body>
-    <div class="">
+    <div class="contenedor_nav">
         <div class="menu">
             <nav class="navbar navbar-light bg-light static-top fondo">
-                <div class="container">
+                <div class="container objetos">
                     <a class="navbar-brand" href="#">
                         <img src="assets/images/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
                     </a>
@@ -44,8 +44,7 @@ if (isset($_SESSION['usuario'])) {
                             <a class="nav-link" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
                         </li>
                     </ul>
-                    <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
-                    <a class="btn btn-primary" href="#">Abrir VSC</a>
+                    <a class="btn btn-primary" href="../register-login/rp.php">Abrir VSC</a>
                 </div>
             </nav>
         </div>
