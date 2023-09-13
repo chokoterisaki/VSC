@@ -21,11 +21,11 @@
     <link rel="stylesheet" href="../sobre_nosotros/carousel/carousel.css">
 </head>
 
-<body style="background-color:#f0f0f0">
+<body style="background-color:#f0f0f0" class="fondo">
     <!-- Navigation-->
     <div class="rgb">
         <div class="menu">
-            <nav class="navbar navbar-light bg-light static-top fondo">
+            <nav class="navbar navbar-light bg-light static-top fondo1"><!--fondo1-->
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="assets/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
@@ -46,8 +46,7 @@
                             <a class="nav-link" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
                         </li>
                     </ul>
-                    <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
-                    <a class="btn btn-primary" href="#">Abrir VSC</a>
+                    <a class="btn btn-primary" href="../register-login/rp.php">Abrir VSC</a>
                     <input class="on-off" type="checkbox" id="switch">
                     <label for="switch" class="switch-label"></label>
                 </div>
@@ -55,7 +54,7 @@
         </div>
     </div>
     <!-- Masthead-->
-    <div class="text-center fondo5">
+    <div class="text-center "><!--fondo2-->
         <br>
         <h1 class="mt-3 mb-3">Inicio</h1>
     </div>
@@ -83,7 +82,7 @@
         </div>
     </header>
     <!-- Icons Grid-->
-    <section class="features-icons fondo1 text-center">
+    <section class="features-icons text-center"><!--fondo3-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -111,7 +110,7 @@
         </div>
     </section>
     <!-- Image Showcases-->
-    <section class="showcase fondo2">
+    <section class="showcase"><!--fondo4-->
         <div class="container-fluid p-0">
             <div class="row g-0">
                 <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/chat-online-funil-de-vendas-1024x682.png')"></div>
@@ -137,7 +136,7 @@
         </div>
     </section>
     <!-- Testimonials-->
-    <section class="testimonials text-center fondo3 ">
+    <section class="testimonials text-center  "><!--fondo5-->
         <div class="container">
             <h2 class="mb-5">¿Que opinan nuestros beta testers?</h2>
             <div class="row">
@@ -207,7 +206,7 @@
         </div>
     </section>
     <!-- Footer-->
-    <footer class="footer fondo4">
+    <footer class="footer "><!--fondo6-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 h-100 text-center text-lg-start my-auto">

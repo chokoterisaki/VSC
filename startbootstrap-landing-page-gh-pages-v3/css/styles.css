@@ -12930,11 +12930,10 @@ footer.footer {
   text-decoration: none;
 }
 
-.menu{
-  width: 1902px;
-  height: 80px;
+.menu {
+  width: 100%;
+  height: 90px;
   background-color: #f0f0f0;
-
 }
 
 .rgb::before {
@@ -12943,8 +12942,8 @@ footer.footer {
   top: 1;
   left: 1;
   z-index: -1;
-  width: 1902px;
-  height: 110px;
+  width: 100%;
+  height: 100px;
   background: linear-gradient(
     45deg,
     #0d00ff,
@@ -12973,4 +12972,13 @@ footer.footer {
     background-position: 0 0;
   }
 }
+
+.contenedor_nav{
+  margin-left: -30px;
+}
+
+.objetos{
+  margin-left: 100px;
+}
+
 

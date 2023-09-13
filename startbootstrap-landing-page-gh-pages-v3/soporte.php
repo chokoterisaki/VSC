@@ -43,8 +43,7 @@
                             <a class="nav-link" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
                         </li>
                     </ul>
-                    <a class="btn btn-primary" href="../register-login/rp.php">Iniciar Sesión</a>
-                    <a class="btn btn-primary" href="#">Abrir VSC</a>
+                    <a class="btn btn-primary" href="../register-login/rp.php">Abrir VSC</a>
                     <input class="on-off" type="checkbox" id="switch">
                     <label for="switch" class="switch-label"></label>
                 </div>
