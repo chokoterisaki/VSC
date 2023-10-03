@@ -101,6 +101,22 @@ if (!isset($_SESSION['usuario'])) {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-left: 20px;
+    }
+
+    .go img {
+      width: 500px;
+      height: 500px;
+      border: 9px solid #4c00ff;
+    }
+
+    .texto {
+      width: 500px;
+      height: 50px;
+      border: 5px solid #4c00ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .alb img {
@@ -109,9 +125,37 @@ if (!isset($_SESSION['usuario'])) {
       border: 5px solid #4c00ff;
     }
 
-    .go h2{
+    .go h2 {
       font-size: medium;
       color: black;
+    }
+
+    .mi-img {
+      position: fixed;
+      top: 400px;
+      left: 85px;
+      column-count: 3;
+      column-gap: 20px;
+      width: 600px;
+      height: 150px;
+      color: white;
+      background-color: grey;
+      border: 5px solid #4c00ff;
+    }
+
+    .mi-img label {
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    .mi-img input {
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    .mi-img button {
+      margin-bottom: 8px;
+      padding: 10px;
     }
   </style>
 
@@ -184,23 +228,47 @@ if (!isset($_SESSION['usuario'])) {
       </div>
     </div>
   </header>-->
-
+  <br>
+  <form class="mi-img" action="upload.php" method="post" enctype="multipart/form-data">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required>
+    <br>
+    <label for="imagen">Imagen:</label>
+    <input type="file" name="imagen" id="imagen" accept="image/*" required>
+    <br>
+    <button type="submit" name="submit">Subir</button>
+  </form>
   <main class="go">
     <?php
-    $sql = "SELECT * FROM images ORDER BY id DESC";
-    $res = mysqli_query($conn,  $sql);
+    // Mostrar todas las imágenes y nombres guardados en la base de datos
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "register_login_rp";
 
-    if (mysqli_num_rows($res) > 0) {
-      while ($images = mysqli_fetch_assoc($res)) {  ?>
-        <br>
-        <br>
-        <div class="alb">
-          <br>
-          <img src="uploads/<?= $images['image_url'] ?>">
-        </div>
+    // Crear conexión
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
-    <?php }
-    } ?>
+    // Verificar conexión
+    if ($conn->connect_error) {
+      die("Conexión fallida: " . $conn->connect_error);
+    }
+
+    // Obtener información de la base de datos
+    $sql = "SELECT nombre, image_url FROM imagenes ORDER BY id DESC";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+      while ($row = $result->fetch_assoc()) {
+        echo "<p class='texto'>" . $row['nombre'] . "</p>";
+        echo "<img src='" . $row['image_url'] . "' alt='Imagen'><br>";
+      }
+    } else {
+      echo "No se encontraron imágenes.";
+    }
+
+    // Cerrar conexión
+    ?>
   </main>
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 

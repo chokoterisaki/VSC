@@ -21,10 +21,10 @@ if (isset($_SESSION['usuario'])) {
 </head>
 
 <body>
-    <div class="contenedor_nav">
+    <div class="">
         <div class="menu">
             <nav class="navbar navbar-light bg-light static-top fondo">
-                <div class="container objetos">
+                <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="assets/images/VSCk_big.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
                     </a>
@@ -33,9 +33,6 @@ if (isset($_SESSION['usuario'])) {
                     <ul class="nav nav-pills">
                         <li class="nav-item">
                             <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/soporte.php">Soporte</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
