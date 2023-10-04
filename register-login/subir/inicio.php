@@ -73,7 +73,7 @@ if (!isset($_SESSION['usuario'])) {
     .separaciones {
       text-align: center;
       display: block;
-      margin-bottom: 150px;
+      margin-bottom: 200px;
       margin-left: 15px;
       text-decoration: none;
       color: white;
@@ -108,6 +108,7 @@ if (!isset($_SESSION['usuario'])) {
       width: 500px;
       height: 500px;
       border: 9px solid #4c00ff;
+      border-radius: 50px;
     }
 
     .texto {
@@ -117,6 +118,7 @@ if (!isset($_SESSION['usuario'])) {
       display: flex;
       justify-content: center;
       align-items: center;
+      border-radius: 50px;
     }
 
     .alb img {
@@ -151,11 +153,22 @@ if (!isset($_SESSION['usuario'])) {
     .mi-img input {
       margin-bottom: 10px;
       padding: 10px;
+      background-color: black;
+      border: 5px solid white;
     }
 
     .mi-img button {
+      width: 80px;
       margin-bottom: 8px;
+      margin-left: 10px;
       padding: 10px;
+      background-color: #4c00ff;
+      border: 5px solid black;
+      border-radius: 50px;
+    }
+
+    .imagen {
+      margin-left: 10px;
     }
   </style>
 
@@ -166,13 +179,13 @@ if (!isset($_SESSION['usuario'])) {
   <header>
     <div class="menu">
       <img class="separaciones" src="../assets/images/VSCk_big.jpg" alt="">
-      <a class="botones separaciones" href="home"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <a class="botones separaciones" href="inicio.php"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
           <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
           <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
           <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
         </svg></a>
-      <a class="botones separaciones" href="chat"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message-code" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <a class="botones separaciones" href="chat.php"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message-code" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
           <path d="M8 9h8" />
           <path d="M8 13h6" />
@@ -180,15 +193,8 @@ if (!isset($_SESSION['usuario'])) {
           <path d="M20 21l2 -2l-2 -2" />
           <path d="M17 17l-2 2l2 2" />
         </svg></a>
-      <a class="botones separaciones" href="./upload.php"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M12 5l0 14" />
-          <path d="M5 12l14 0" />
-        </svg></a>
-      <a class="botones cuenta" href="cuenta"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
-          <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+      <a href="../php/cerrar_sesion.php" class="botones separaciones"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+          <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"></path>
         </svg></a>
     </div>
   </header>
@@ -230,13 +236,11 @@ if (!isset($_SESSION['usuario'])) {
   </header>-->
   <br>
   <form class="mi-img" action="upload.php" method="post" enctype="multipart/form-data">
-    <label for="nombre">Nombre:</label>
-    <input type="text" name="nombre" id="nombre" required>
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre de la publicación" autocomplete="off" required>
     <br>
-    <label for="imagen">Imagen:</label>
-    <input type="file" name="imagen" id="imagen" accept="image/*" required>
+    <button class="subir" type="submit" name="submit">Subir</button>
     <br>
-    <button type="submit" name="submit">Subir</button>
+    <input class="imagen" type="file" name="imagen" id="imagen" accept="image/*" required>
   </form>
   <main class="go">
     <?php

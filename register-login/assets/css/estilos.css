@@ -7,8 +7,7 @@
 }
 
 body{
-    background-image: url(../images/fondo.png);
-    background-size: cover;
+    background-image: linear-gradient(to right, #3700ff, #2b00da, #1f00b6, #140093, #0a0072);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -35,8 +34,9 @@ main{
     justify-content: center;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background: linear-gradient(to right top, #8e6bd1, #8564d3, #7a5dd5, #6e57d7, #6051d9, #5f4dd5, #5f48d1, #5e44cd, #6941c2, #703eb8, #763cae, #7a3aa4);
-
+    background-image: linear-gradient(to right, #210099, #3303ad, #4408c2, #550dd6, #6612eb);
+    border: 8px solid black;
+    border-radius: 50px;
 }
 
 .caja__trasera div{
@@ -96,16 +96,18 @@ main{
 .contenedor__login-register form{
     width: 100%;
     padding: 80px 20px;
-    background: linear-gradient(to bottom, #3933c2, #6758d0, #8c7ddd, #afa3e8, #d1caf3, #d4ccf6, #d8cdf9, #dbcffc, #c4aaf6, #b185ee, #a05ce2, #9227d3);
+    background-image: linear-gradient(to right, #210099, #3303ad, #4408c2, #550dd6, #6612eb);
     position: absolute;
-    border-radius: 20px;
+    border-radius: 50px;
+    border: 5px solid black;
 }
 
 .contenedor__login-register form h2{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: #ab46fd;
+    color: black;
+    text-shadow: 2px 2px 4px white;
 }
 
 .contenedor__login-register form input {
@@ -113,21 +115,30 @@ main{
     margin-top: 20px;
     padding: 10px;
     border: none;
-    background: #fffeff;
+    background: black;
+    color: #a200ff;
     font-size: 16px;
     outline: none;
+    border: 5px solid white;
+    border-radius: 50px;
 }
 
 .contenedor__login-register form button{
     padding: 10px 40px;
     margin-top: 40px;
-    border: none;
     font-size: 14px;
-    background: #8646fd;
+    background: #5a00c2;
     font-weight: 600;
     cursor: pointer;
     color: white;
     outline: none;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.contenedor__login-register form button:hover{
+    background-color: white;
+    color: #5a00c2;
 }
 
 
@@ -139,6 +150,11 @@ main{
 }
 .formulario__register{
     display: none;
+}
+
+.valor{
+    background-color: black;
+    color: white;
 }
 
 
