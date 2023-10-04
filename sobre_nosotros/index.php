@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.84.0">
-  <title>Carousel Template · Bootstrap v5.0</title>
+  <title>Sobre Nosotros</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
@@ -54,9 +54,6 @@
           <ul class="nav nav-pills">
             <li class="nav-item">
               <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
@@ -121,6 +118,8 @@
                   <div class="especialidad">
                     <img class="ajuste" src="./assets/img/css.png" alt="">
                     <img class="ajuste" src="./assets/img/html.png" alt="">
+                    <img class="ajuste" src="./assets/img/js.png" alt="">
+                    <img class="ajuste" src="./assets/img/scss.png" alt="">
                   </div>
                 </div>
               </div>
