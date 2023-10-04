@@ -155,6 +155,7 @@ if (!isset($_SESSION['usuario'])) {
       padding: 10px;
       background-color: black;
       border: 5px solid white;
+      color: white;
     }
 
     .mi-img button {

@@ -35,9 +35,6 @@ if (isset($_SESSION['usuario'])) {
                             <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../startbootstrap-landing-page-gh-pages-v3/novedades.php">Novedades</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="../sobre_nosotros/index.php">Sobre Nosotros</a>
                         </li>
                     </ul>
