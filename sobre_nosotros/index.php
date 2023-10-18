@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.84.0">
-  <title>Sobre Nosotros</title>
+  <title>Carousel Template · Bootstrap v5.0</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
@@ -119,7 +119,7 @@
                     <img class="ajuste" src="./assets/img/css.png" alt="">
                     <img class="ajuste" src="./assets/img/html.png" alt="">
                     <img class="ajuste" src="./assets/img/js.png" alt="">
-                    <img class="ajuste" src="./assets/img/scss.png" alt="">
+                    <img class="ajuste" src="./assets/img/sass.png" alt="">
                   </div>
                 </div>
               </div>
